@@ -1,0 +1,7 @@
+course_item_type_id;course_item_type_desc;course_item_type_category;course_item_type_graded
+4;"peer";"peer";f
+1;"lecture";"lecture";f
+7;"others";"";f
+6;"exam";"quiz";t
+10;"graded programming";"programming";t
+3;"supplement";"supplement";f

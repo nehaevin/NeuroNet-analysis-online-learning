@@ -1,0 +1,686 @@
+event_id;event_name
+\core\event\badge_archived;Значок заархивирован
+\core\event\badge_awarded;Значок выдан
+\core\event\badge_created;Значок создан
+\core\event\badge_criteria_created;Критерии значка созданы
+\core\event\badge_criteria_deleted;Критерии значка удалены
+\core\event\badge_criteria_updated;Критерии значка обновлены
+\core\event\badge_deleted;Значок удален
+\core\event\badge_disabled;Значок отключен
+\core\event\badge_duplicated;Значок продублирован
+\core\event\badge_enabled;Значок включен
+\core\event\badge_listing_viewed;Просмотрен список значков
+\core\event\badge_revoked;Значок отменен
+\core\event\badge_updated;Значок обновлен
+\core\event\badge_viewed;Значок просмотрен
+\core\event\blog_association_created;Связь с блогом создана
+\core\event\blog_association_deleted;Связь с блогом удалена
+\core\event\blog_comment_created;Комментарий создан
+\core\event\blog_comment_deleted;Комментарий удален
+\core\event\blog_entries_viewed;Записи блога просмотрены
+\core\event\blog_entry_created;Запись блока добавлена
+\core\event\blog_entry_deleted;Запись блога удалена
+\core\event\blog_entry_updated;Запись блога обновлена
+\core\event\blog_external_added;Внешний блог зарегистрирован
+\core\event\blog_external_removed;Внешний блог не  был зарегистрирован
+\core\event\blog_external_updated;Внешний блог обновлен
+\core\event\blog_external_viewed;Просмотр внешних зарегистрированных блогов
+\core\event\calendar_event_created;Событие календаря создано
+\core\event\calendar_event_deleted;Событие календаря удалено
+\core\event\calendar_event_updated;Событие календаря обновлено
+\core\event\calendar_subscription_created;Подписка на календарь создана
+\core\event\calendar_subscription_deleted;Подписка на календарь удалена
+\core\event\calendar_subscription_updated;Подписка на календарь обновлена
+\core\event\capability_assigned;Право назначено
+\core\event\capability_unassigned;Право отозвано
+\core\event\cohort_created;Глобальная группа создана
+\core\event\cohort_deleted;Глобальная группа удалена
+\core\event\cohort_member_added;Пользователь добавлен в глобальную группу
+\core\event\cohort_member_removed;Пользователь удален из глобальной группы
+\core\event\cohort_updated;Глобальная группа обновлена
+\core\event\competency_comment_created;Комментарий создан
+\core\event\competency_comment_deleted;Комментарий удален
+\core\event\competency_created;Компетенция создана.
+\core\event\competency_deleted;Компетенция удалена.
+\core\event\competency_evidence_created;Доказательство создано.
+\core\event\competency_framework_created;Фреймворк компетенций создан.
+\core\event\competency_framework_deleted;Фреймворк компетенций удален.
+\core\event\competency_framework_updated;Фреймворк компетенций обновлен.
+\core\event\competency_framework_viewed;Фреймворк компетенций просмотрен.
+\core\event\competency_plan_approved;Учебный план одобрен.
+\core\event\competency_plan_completed;Учебный план выполнен.
+\core\event\competency_plan_created;Учебный план создан.
+\core\event\competency_plan_deleted;Учебный план удален.
+\core\event\competency_plan_reopened;Учебный план открыт заново.
+\core\event\competency_plan_review_request_cancelled;Запрос на пересмотр учебного плана отклонен.
+\core\event\competency_plan_review_requested;Запрошен пересмотр учебного плана.
+\core\event\competency_plan_review_started;Начат пересмотр учебного плана.
+\core\event\competency_plan_review_stopped;Остановлен пересмотр учебного плана.
+\core\event\competency_plan_unapproved;Отменено одобрение учебного плана.
+\core\event\competency_plan_unlinked;Отменена связь учебного плана.
+\core\event\competency_plan_updated;Учебный план обновлен.
+\core\event\competency_plan_viewed;Учебный план просмотрен.
+\core\event\competency_template_created;Шаблон учебного плана создан.
+\core\event\competency_template_deleted;Шаблон учебного плана удален.
+\core\event\competency_template_updated;Шаблон учебного плана обновлен.
+\core\event\competency_template_viewed;Шаблон учебного плана просмотрен.
+\core\event\competency_updated;Компетенция обновлена.
+\core\event\competency_user_competency_plan_viewed;Просмотрен план компетенций пользователя.
+\core\event\competency_user_competency_rated_in_course;Задан рейтинг компетенции пользователя в курсе.
+\core\event\competency_user_competency_rated_in_plan;Задан рейтинг компетенции пользователя в учебном плане.
+\core\event\competency_user_competency_rated;Задан рейтинг компетенции пользователя.
+\core\event\competency_user_competency_review_request_cancelled;Запрос на пересмотр компетенции пользователя отклонен.
+\core\event\competency_user_competency_review_requested;Запрошен пересмотр компетенции пользователя.
+\core\event\competency_user_competency_review_started;Начат пересмотр компетенции пользователя.
+\core\event\competency_user_competency_review_stopped;Остановлен пересмотр компетенции пользователя.
+\core\event\competency_user_competency_viewed_in_course;Просмотрена компетенция пользователя в курсе.
+\core\event\competency_user_competency_viewed_in_plan;Просмотрена компетенция пользователя в учебном плане.
+\core\event\competency_user_competency_viewed;Просмотрена компетенция пользователя.
+\core\event\competency_user_evidence_created;Создано доказательство предыдущего обучения.
+\core\event\competency_user_evidence_deleted;Удалено доказательство предыдущего обучения.
+\core\event\competency_user_evidence_updated;Обновлено доказательство предыдущего обучения.
+\core\event\competency_viewed;Компетенция просмотрена.
+\core\event\completion_defaults_updated;Настройки по умолчанию для выполнения элемента курса обновлены
+\core\event\config_log_created;Создан лог конфигурации
+\core\event\contentbank_content_created;Контент создан
+\core\event\contentbank_content_deleted;Контент удален
+\core\event\contentbank_content_updated;Контент обновлен
+\core\event\contentbank_content_uploaded;Контент загружен
+\core\event\contentbank_content_viewed;Контент просмотрен
+\core\event\context_locked;Контекст заморожен
+\core\event\context_unlocked;Контекст не заморожен
+\core\event\course_backup_created;Резервная копия курса создана
+\core\event\course_category_created;Категория создана
+\core\event\course_category_deleted;Категория удалена
+\core\event\course_category_updated;Категория обновлена
+\core\event\course_category_viewed;Просмотренные категории
+\core\event\course_completed;Курс завершен
+\core\event\course_completion_updated;Завершение курса обновлено
+\core\event\course_content_deleted;Содержимое курса удалено
+\core\event\course_created;Курс создан
+\core\event\course_deleted;Курс удален
+\core\event\course_information_viewed;Просмотрено описание курса
+\core\event\course_module_completion_updated;Выполнение элемента курса обновлено
+\core\event\course_module_created;Модуль курса создан
+\core\event\course_module_deleted;Модуль курса удален
+\core\event\course_module_updated;Модуль курса обновлен
+\core\event\course_reset_ended;Сброс курса завершен
+\core\event\course_reset_started;Сброс курса начат
+\core\event\course_resources_list_viewed;Список экземпляров модуля в курсе просмотрен
+\core\event\course_restored;Курс восстановлен
+\core\event\course_section_created;Раздел курса создан
+\core\event\course_section_deleted;Раздел курса удален
+\core\event\course_section_updated;Раздел курса обновлен
+\core\event\courses_searched;Проведен поиск по курсам
+\core\event\course_updated;Курс обновлен
+\core\event\course_user_report_viewed;Отчет по участнику курса просмотрен
+\core\event\course_viewed;Курс просмотрен
+\core\event\dashboard_reset;Страница «Личный кабинет» сброшена
+\core\event\dashboards_reset;Все страницы «Личный кабинет» сброшены
+\core\event\dashboard_viewed;Страница «Личный кабинет» просмотрена
+\core\event\database_text_field_content_replaced;База данных глобального поиска и замены
+\core\event\email_failed;Не удалось отправить сообщение электронной почты
+\core\event\enrol_instance_created;Создан способ зачисления на курс
+\core\event\enrol_instance_deleted;Поток удален
+\core\event\enrol_instance_updated;Обновлен способ зачисления на курс
+\core\event\grade_deleted;Оценка удалена
+\core\event\grade_item_created;Создан элемент оценки
+\core\event\grade_item_deleted;Элемент оценки удален
+\core\event\grade_item_updated;Элемент оценки обновлен
+\core\event\grade_letter_created;Буква оценки создана
+\core\event\grade_letter_deleted;Буква оценки удалена
+\core\event\grade_letter_updated;Буква оценки обновлена
+\core\event\group_created;Группа создана
+\core\event\group_deleted;Группа удалена
+\core\event\grouping_created;Поток создан
+\core\event\grouping_deleted;Поток удален
+\core\event\grouping_group_assigned;Группа была назначена потоку
+\core\event\grouping_group_unassigned;Группа была убрана из потока
+\core\event\grouping_updated;Поток обновлен
+\core\event\group_member_added;Член группы добавлен
+\core\event\group_member_removed;Член группы удален
+\core\event\group_message_sent;Групповое сообщение отправлено
+\core\event\group_updated;Группа обновлена
+\core\event\insights_viewed;Просмотр информации
+\core\event\message_contact_added;Добавлен собеседник
+\core\event\message_contact_removed;Собеседник удален
+\core\event\message_deleted;Сообщение удалено
+\core\event\message_sent;Сообщение отправлено
+\core\event\message_user_blocked;[[eventmessageusersblocked]]
+\core\event\message_user_unblocked;[[eventmessageusersunblocked]]
+\core\event\message_viewed;Сообщение просмотрено
+\core\event\mnet_access_control_created;Элемент списка контроля доступа создан
+\core\event\mnet_access_control_updated;Элемент списка контроля доступа обновлен (больше не используется)
+\core\event\note_created;Заметка создана
+\core\event\note_deleted;Заметка удалена
+\core\event\notes_viewed;Заметки просмотрены
+\core\event\note_updated;Заметка обновлена
+\core\event\notification_sent;Уведомление отправлено
+\core\event\notification_viewed;Уведомление просмотрено
+\core\event\prediction_action_started;Начался процесс прогнозирования
+\core\event\question_category_created;Категория вопроса создана
+\core\event\question_category_deleted;Категория вопросов удалена
+\core\event\question_category_moved;Категория вопросов перемещена
+\core\event\question_category_updated;Категория вопросов обновлена
+\core\event\question_category_viewed;Категория вопросов просмотрена
+\core\event\question_created;Вопрос создан
+\core\event\question_deleted;Вопрос удален
+\core\event\question_moved;Вопрос перемещен
+\core\event\questions_exported;Вопросы экспортированы
+\core\event\questions_imported;Вопросы импортированы
+\core\event\question_updated;Вопрос обновлен
+\core\event\question_viewed;Вопрос просмотрен
+\core\event\recent_activity_viewed;Отчет о последних действиях просмотрен
+\core\event\role_allow_assign_updated;Разрешение на назначение роли обновлено
+\core\event\role_allow_override_updated;Разрешение на переопределение роли обновлено
+\core\event\role_allow_switch_updated;Разрешение на переключение между ролями обновлено
+\core\event\role_allow_view_updated;Разрешение на просмотр ролей обновлено
+\core\event\role_assigned;Роль назначена
+\core\event\role_capabilities_updated;Права для роли обновлены (больше не используется)
+\core\event\role_deleted;Роль удалена
+\core\event\role_unassigned;Назначение роли снято
+\core\event\role_updated;Роль обновлена
+\core\event\scale_created;Шкала создана
+\core\event\scale_deleted;Шкала удалена
+\core\event\scale_updated;Шкала обновлена
+\core\event\search_indexed;Данные для поиска проиндексированы
+\core\event\search_results_viewed;Просмотренные поисковые запросы
+\core\event\tag_added;Тег добавлен к объекту
+\core\event\tag_collection_created;Коллекция тегов создана
+\core\event\tag_collection_deleted;Коллекция тегов удалена
+\core\event\tag_collection_updated;Коллекция тегов обновлена
+\core\event\tag_created;Тег создан
+\core\event\tag_deleted;Тег удален
+\core\event\tag_flagged;Тег помечен
+\core\event\tag_removed;Тег удален из объекта
+\core\event\tag_unflagged;С тега снята пометка
+\core\event\tag_updated;Тег обновлен
+\core\event\user_created;Пользователь создан
+\core\event\user_deleted;Пользователь удален
+\core\event\user_enrolment_created;Пользователь зачислен на курс
+\core\event\user_enrolment_deleted;Пользователь отчислен из курса
+\core\event\user_enrolment_updated;Зачисление пользователя на курс обновлена
+\core\event\userfeedback_give;Переход по ссылке «Оставить отзыв об этом программном обеспечении»
+\core\event\userfeedback_remind;Переход по ссылке «Напомнить мне позже»
+\core\event\user_graded;Пользователю поставлена оценка
+\core\event\user_info_category_created;Создана категория поля профиля пользователя
+\core\event\user_info_category_deleted;Категория поля профиля пользователя удалена
+\core\event\user_info_category_updated;Категория поля профиля пользователя обновлена
+\core\event\user_info_field_created;Создано поле профиля пользователя
+\core\event\user_info_field_deleted;Поле профиля пользователя удалено
+\core\event\user_info_field_updated;Поле профиля пользователя обновлено
+\core\event\user_list_viewed;Список пользователей просмотрен
+\core\event\user_loggedinas;Пользователь вошел в систему от имени другого пользователя
+\core\event\user_loggedin;Пользователь вошел в систему
+\core\event\user_loggedout;Пользователь вышел
+\core\event\user_login_failed;Неудачный вход пользователя
+\core\event\user_password_policy_failed;Пароль пользователя не соответствует политике паролей
+\core\event\user_password_updated;Пароль пользователя обновлен
+\core\event\user_profile_viewed;Профиль пользователя просмотрен
+\core\event\user_updated;Пользователь обновлен
+\core\event\virus_infected_data_detected;Данные заражены
+\core\event\virus_infected_file_detected;Файл заражен
+\core\event\webservice_function_called;Осуществлен вызов функции веб-службы
+\core\event\webservice_login_failed;Ошибка авторизации в веб-службе
+\core\event\webservice_service_created;Веб-служба создана
+\core\event\webservice_service_deleted;Веб-служба удалена
+\core\event\webservice_service_updated;Веб-служба обновлена
+\core\event\webservice_service_user_added;Пользователь веб-службы добавлен
+\core\event\webservice_service_user_removed;Пользователь веб-службы удален
+\core\event\webservice_token_created;Ключ веб-службы создан
+\core\event\webservice_token_sent;Ключ веб-службы отправлен
+\mod_anonvote\event\all_responses_deleted;Все ответы удалены
+\mod_anonvote\event\all_responses_saved_as_text;Все ответы сохранены в виде текста
+\mod_anonvote\event\all_responses_viewed;Просмотрен отчет «Все ответы»
+\mod_anonvote\event\anonvote_previewed;Осуществлен предварительный просмотр тайного голосования
+\mod_anonvote\event\attempt_resumed;Попытка возобновлена
+\mod_anonvote\event\attempt_saved;Ответы сохранены
+\mod_anonvote\event\attempt_submitted;Ответы сданы
+\mod_anonvote\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_anonvote\event\course_module_viewed;Модуль курса просмотрен
+\mod_anonvote\event\non_respondents_viewed;Просмотрен список не сдавших ответы
+\mod_anonvote\event\question_created;Вопрос создан
+\mod_anonvote\event\question_deleted;Вопрос удален
+\mod_anonvote\event\response_deleted;Индивидуальный ответ удален
+\mod_anonvote\event\response_viewed;Просмотрен отчет «Индивидуальный ответ»
+\mod_assign\event\all_submissions_downloaded;Все представленные работы загружены.
+\mod_assign\event\assessable_submitted;Работа представлена.
+\mod_assign\event\batch_set_marker_allocation_viewed;Страница массового закрепления оценщиков просмотрена.
+\mod_assign\event\batch_set_workflow_state_viewed;Страница массовой установки этапа оценивания просмотрена.
+\mod_assign\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_assign\event\course_module_viewed;Модуль курса просмотрен
+\mod_assign\event\extension_granted;Предоставлено продление.
+\mod_assign\event\feedback_viewed;Отзыв просмотрен
+\mod_assign\event\grading_form_viewed;Форма оценивания просмотрена
+\mod_assign\event\grading_table_viewed;Таблица оценивания просмотрена
+\mod_assign\event\group_override_created;Переопределение задания создано
+\mod_assign\event\group_override_deleted;Переопределение задания удалено
+\mod_assign\event\group_override_updated;Переопределение задания обновлено
+\mod_assign\event\identities_revealed;Раскрыты личности студентов.
+\mod_assign\event\marker_updated;Распределение оценщиков обновлено
+\mod_assign\event\remove_submission_form_viewed;Убрать просмотренное подтверждение отправки.
+\mod_assign\event\reveal_identities_confirmation_page_viewed;Страница подтверждения раскрытия личностей студентов просмотрена
+\mod_assign\event\statement_accepted;Пользователь принял заявление о представлении работы.
+\mod_assign\event\submission_confirmation_form_viewed;Рассмотрена форма подтверждения представленных ответов
+\mod_assign\event\submission_duplicated;Пользователь продублировал свой ответ.
+\mod_assign\event\submission_form_viewed;Форма представления ответов просмотрена
+\mod_assign\event\submission_graded;Представленный ответ был оценен.
+\mod_assign\event\submission_locked;Возможность представление ответов для пользователя была заблокирована.
+\mod_assign\event\submission_status_updated;Состояние представленного ответа было обновлено.
+\mod_assign\event\submission_status_viewed;Страница состояния представленного ответа просмотрена
+\mod_assign\event\submission_unlocked;Возможность представления ответов для пользователя была разблокирована.
+\mod_assign\event\submission_viewed;Представленный ответ рассмотрен.
+\mod_assign\event\user_override_created;Переопределение задания создано
+\mod_assign\event\user_override_deleted;Переопределение задания удалено
+\mod_assign\event\user_override_updated;Переопределение задания обновлено
+\mod_assign\event\workflow_state_updated;Этап оценивания был обновлен.
+\mod_bigbluebuttonbn\event\activity_viewed;Просмотрен элемент курса «Видеоконференция BigBlueButton»
+\mod_bigbluebuttonbn\event\bigbluebuttonbn_activity_management_viewed;BigBlueButtonBN activity management viewed
+\mod_bigbluebuttonbn\event\live_session_event;В прямом эфире
+\mod_bigbluebuttonbn\event\meeting_created;Собрание BigBlueButton создано
+\mod_bigbluebuttonbn\event\meeting_ended;Собрание BigBlueButton принудительно завершено
+\mod_bigbluebuttonbn\event\meeting_joined;Пользователь присоединился к собранию BigBlueButton
+\mod_bigbluebuttonbn\event\meeting_left;Пользователь покинул собрание BigBlueButton
+\mod_bigbluebuttonbn\event\recording_deleted;Запись собрания BigBlueButton удалена
+\mod_bigbluebuttonbn\event\recording_edited;Запись изменена
+\mod_bigbluebuttonbn\event\recording_imported;Запись импортирована
+\mod_bigbluebuttonbn\event\recording_protected;Запись защищена
+\mod_bigbluebuttonbn\event\recording_published;Запись собрания BigBlueButton опубликована
+\mod_bigbluebuttonbn\event\recording_unprotected;Запись не защищена
+\mod_bigbluebuttonbn\event\recording_unpublished;Отменена публикация записи собрания BigBlueButton
+\mod_bigbluebuttonbn\event\recording_viewed;Запись просмотрена
+\mod_biggreenbuttonbn\event\activity_viewed;Просмотрен элемент курса «Видеоконференция BigGreenButton»
+\mod_biggreenbuttonbn\event\biggreenbuttonbn_activity_management_viewed;BiggreenbuttonBN activity management viewed
+\mod_biggreenbuttonbn\event\live_session_event;В прямом эфире
+\mod_biggreenbuttonbn\event\meeting_created;Собрание BigGreenButton создано
+\mod_biggreenbuttonbn\event\meeting_ended;Собрание BigGreenButton принудительно завершено
+\mod_biggreenbuttonbn\event\meeting_joined;Пользователь присоединился к собранию BigGreenButton
+\mod_biggreenbuttonbn\event\meeting_left;Пользователь покинул собрание BigGreenButton
+\mod_biggreenbuttonbn\event\recording_deleted;Запись собрания BigGreenButton удалена
+\mod_biggreenbuttonbn\event\recording_edited;Запись изменена
+\mod_biggreenbuttonbn\event\recording_imported;Запись импортирована
+\mod_biggreenbuttonbn\event\recording_protected;Запись защищена
+\mod_biggreenbuttonbn\event\recording_published;Запись собрания BigGreenButton опубликована
+\mod_biggreenbuttonbn\event\recording_unprotected;Запись не защищена
+\mod_biggreenbuttonbn\event\recording_unpublished;Отменена публикация записи собрания BigGreenButton
+\mod_biggreenbuttonbn\event\recording_viewed;Запись просмотрена
+\mod_bigyellowbuttonbn\event\activity_viewed;Просмотрен элемент курса «Видеоконференция BigYellowButton»
+\mod_bigyellowbuttonbn\event\bigyellowbuttonbn_activity_management_viewed;BigyellowbuttonBN activity management viewed
+\mod_bigyellowbuttonbn\event\live_session_event;В прямом эфире
+\mod_bigyellowbuttonbn\event\meeting_created;Собрание BigYellowButton создано
+\mod_bigyellowbuttonbn\event\meeting_ended;Собрание BigYellowButton принудительно завершено
+\mod_bigyellowbuttonbn\event\meeting_joined;Пользователь присоединился к собранию BigYellowButton
+\mod_bigyellowbuttonbn\event\meeting_left;Пользователь покинул собрание BigYellowButton
+\mod_bigyellowbuttonbn\event\recording_deleted;Запись собрания BigYellowButton удалена
+\mod_bigyellowbuttonbn\event\recording_edited;Запись изменена
+\mod_bigyellowbuttonbn\event\recording_imported;Запись импортирована
+\mod_bigyellowbuttonbn\event\recording_protected;Запись защищена
+\mod_bigyellowbuttonbn\event\recording_published;Запись собрания BigYellowButton опубликована
+\mod_bigyellowbuttonbn\event\recording_unprotected;Запись не защищена
+\mod_bigyellowbuttonbn\event\recording_unpublished;Отменена публикация записи собрания BigYellowButton
+\mod_bigyellowbuttonbn\event\recording_viewed;Запись просмотрена
+\mod_book\event\chapter_created;Глава создана
+\mod_book\event\chapter_deleted;Глава удалена
+\mod_book\event\chapter_updated;Глава обновлена
+\mod_book\event\chapter_viewed;Глава просмотрена
+\mod_book\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_book\event\course_module_viewed;Модуль курса просмотрен
+\mod_chat\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_chat\event\course_module_viewed;Модуль курса просмотрен
+\mod_chat\event\message_sent;Отправлено сообщение
+\mod_chat\event\sessions_viewed;Сессии просмотрены
+\mod_choice\event\answer_created;Ответ на опрос добавлен
+\mod_choice\event\answer_deleted;Ответ на опрос удален
+\mod_choice\event\answer_submitted;Выбор сделан (больше не используется)
+\mod_choice\event\answer_updated;Выбор обновлен (больше не используется)
+\mod_choice\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_choice\event\course_module_viewed;Модуль курса просмотрен
+\mod_choice\event\report_downloaded;Скачан отчет по опросу
+\mod_choice\event\report_viewed;Отчет о выбранных вариантах просмотрен
+\mod_choicegroup\event\choice_removed;Выбор удален
+\mod_choicegroup\event\choice_updated;Выбор сделан
+\mod_choicegroup\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_choicegroup\event\course_module_viewed;Модуль курса просмотрен
+\mod_choicegroup\event\report_viewed;Отчет просмотрен
+\mod_data\event\comment_created;Комментарий создан
+\mod_data\event\comment_deleted;Комментарий удален
+\mod_data\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_data\event\course_module_viewed;Модуль курса просмотрен
+\mod_data\event\field_created;Поле создано
+\mod_data\event\field_deleted;Поле удалено
+\mod_data\event\field_updated;Поле обновлено
+\mod_data\event\record_created;Запись создана
+\mod_data\event\record_deleted;Запись удалена
+\mod_data\event\record_updated;Запись обновлена
+\mod_data\event\template_updated;Шаблон обновлен
+\mod_data\event\template_viewed;Шаблоны просмотрены
+\mod_feedback\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_feedback\event\course_module_viewed;Модуль курса просмотрен
+\mod_feedback\event\response_deleted;Ответ удален
+\mod_feedback\event\response_submitted;Ответ представлен
+\mod_folder\event\all_files_downloaded;Zip-архив или папка скачаны
+\mod_folder\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_folder\event\course_module_viewed;Модуль курса просмотрен
+\mod_folder\event\folder_updated;Папка обновлена
+\mod_forum\event\assessable_uploaded;Опубликована некоторая информация.
+\mod_forum\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_forum\event\course_module_viewed;Модуль курса просмотрен
+\mod_forum\event\course_searched;Осуществлен поиск курса
+\mod_forum\event\discussion_created;Тема создана
+\mod_forum\event\discussion_deleted;Тема удалена
+\mod_forum\event\discussion_moved;Тема перемещена
+\mod_forum\event\discussion_pinned;Обсуждение закреплено
+\mod_forum\event\discussion_subscription_created;Подписка на тему создана
+\mod_forum\event\discussion_subscription_deleted;Подписка на тему удалена
+\mod_forum\event\discussion_unpinned;Обсуждение откреплено
+\mod_forum\event\discussion_updated;Тема обновлена
+\mod_forum\event\discussion_viewed;Тема просмотрена
+\mod_forum\event\post_created;Сообщение создано
+\mod_forum\event\post_deleted;Сообщение удалено
+\mod_forum\event\post_updated;Сообщение обновлено
+\mod_forum\event\readtracking_disabled;Отслеживание непрочитанных сообщений отключено
+\mod_forum\event\readtracking_enabled;Отслеживание непрочитанных сообщений включено
+\mod_forum\event\subscribers_viewed;Список подписчиков просмотрен
+\mod_forum\event\subscription_created;Подписка создана
+\mod_forum\event\subscription_deleted;Подписка удалена
+\mod_forum\event\user_report_viewed;Отчет по пользователю просмотрен
+\mod_glossary\event\category_created;Категория создана
+\mod_glossary\event\category_deleted;Категория удалена
+\mod_glossary\event\category_updated;Категория обновлена
+\mod_glossary\event\comment_created;Комментарий создан
+\mod_glossary\event\comment_deleted;Комментарий удален
+\mod_glossary\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_glossary\event\course_module_viewed;Модуль курса просмотрен
+\mod_glossary\event\entry_approved;Запись одобрена
+\mod_glossary\event\entry_created;Запись создана
+\mod_glossary\event\entry_deleted;Запись удалена
+\mod_glossary\event\entry_disapproved;Запись не одобрена
+\mod_glossary\event\entry_updated;Запись обновлена
+\mod_glossary\event\entry_viewed;Запись просмотрена
+\mod_h5pactivity\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_h5pactivity\event\course_module_viewed;Модуль курса просмотрен
+\mod_h5pactivity\event\report_viewed;Отчет просмотрен
+\mod_h5pactivity\event\statement_received;xAPI получено
+\mod_hsuforum\event\assessable_uploaded;Содержимое было размещено
+\mod_hsuforum\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_hsuforum\event\course_module_viewed;Модуль курса просмотрен
+\mod_hsuforum\event\course_searched;Поиск курса
+\mod_hsuforum\event\discussion_created;Тема создана
+\mod_hsuforum\event\discussion_deleted;Тема удалена
+\mod_hsuforum\event\discussion_moved;Тема перемещена
+\mod_hsuforum\event\discussion_pinned;Обсуждение закреплено
+\mod_hsuforum\event\discussion_subscription_created;[[eventdiscussionsubscriptioncreated]]
+\mod_hsuforum\event\discussion_subscription_deleted;[[eventdiscussionsubscriptiondeleted]]
+\mod_hsuforum\event\discussion_unpinned;Обсуждение откреплено
+\mod_hsuforum\event\discussion_updated;Тема обновлена
+\mod_hsuforum\event\discussion_viewed;Тема просмотрена
+\mod_hsuforum\event\post_created;Сообщение создано
+\mod_hsuforum\event\post_deleted;Сообщение удалено
+\mod_hsuforum\event\post_updated;Сообщение обновлено
+\mod_hsuforum\event\readtracking_disabled;Отслеживание непрочитанных сообщений отключено
+\mod_hsuforum\event\readtracking_enabled;Отслеживание непрочитанных сообщений включено
+\mod_hsuforum\event\subscribers_viewed;Просмотр подписчиков
+\mod_hsuforum\event\subscription_created;Подписка создана
+\mod_hsuforum\event\subscription_deleted;Подписка удалена
+\mod_hsuforum\event\user_report_viewed;Просмотр отчета пользователя
+\mod_iforum\event\assessable_uploaded;Содержимое было размещено
+\mod_iforum\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_iforum\event\course_module_viewed;Модуль курса просмотрен
+\mod_iforum\event\course_searched;Поиск курса
+\mod_iforum\event\discussion_created;Тема создана
+\mod_iforum\event\discussion_deleted;Тема удалена
+\mod_iforum\event\discussion_moved;Тема перемещена
+\mod_iforum\event\discussion_pinned;Обсуждение закреплено
+\mod_iforum\event\discussion_subscription_created;[[eventdiscussionsubscriptioncreated]]
+\mod_iforum\event\discussion_subscription_deleted;[[eventdiscussionsubscriptiondeleted]]
+\mod_iforum\event\discussion_unpinned;Обсуждение откреплено
+\mod_iforum\event\discussion_updated;Тема обновлена
+\mod_iforum\event\discussion_viewed;Тема просмотрена
+\mod_iforum\event\post_created;Сообщение создано
+\mod_iforum\event\post_deleted;Сообщение удалено
+\mod_iforum\event\post_updated;Сообщение обновлено
+\mod_iforum\event\readtracking_disabled;Отслеживание непрочитанных сообщений отключено
+\mod_iforum\event\readtracking_enabled;Отслеживание непрочитанных сообщений включено
+\mod_iforum\event\subscribers_viewed;Просмотр подписчиков
+\mod_iforum\event\subscription_created;Подписка создана
+\mod_iforum\event\subscription_deleted;Подписка удалена
+\mod_iforum\event\user_report_viewed;Просмотр отчета пользователя
+\mod_imscp\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_imscp\event\course_module_viewed;Модуль курса просмотрен
+\mod_itstest\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_itstest\event\course_module_viewed;Модуль курса просмотрен
+\mod_lesson\event\content_page_viewed;Содержимое страницы просмотрено
+\mod_lesson\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_lesson\event\course_module_viewed;Модуль курса просмотрен
+\mod_lesson\event\essay_assessed;Эссе оценено
+\mod_lesson\event\essay_attempt_viewed;Ответ на задание типа «Эссе» просмотрен
+\mod_lesson\event\group_override_created;Переопределение лекции создано
+\mod_lesson\event\group_override_deleted;Переопределение лекции удалено
+\mod_lesson\event\group_override_updated;Переопределение лекции обновлено
+\mod_lesson\event\highscore_added;[[eventhighscoreadded]]
+\mod_lesson\event\highscores_viewed;[[eventhighscoresviewed]]
+\mod_lesson\event\lesson_ended;Лекция закончена
+\mod_lesson\event\lesson_restarted;Лекция начата заново
+\mod_lesson\event\lesson_resumed;Лекция продолжена
+\mod_lesson\event\lesson_started;Лекция начата
+\mod_lesson\event\page_created;Страница создана
+\mod_lesson\event\page_deleted;Страница удалена
+\mod_lesson\event\page_moved;Страница перемещена
+\mod_lesson\event\page_updated;Страница обновлена
+\mod_lesson\event\question_answered;Дан ответ на вопрос
+\mod_lesson\event\question_viewed;Вопрос просмотрен
+\mod_lesson\event\user_override_created;Переопределение лекции создано
+\mod_lesson\event\user_override_deleted;Переопределение лекции удалено
+\mod_lesson\event\user_override_updated;Переопределение лекции обновлено
+\mod_lti\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_lti\event\course_module_viewed;Модуль курса просмотрен
+\mod_lti\event\unknown_service_api_called;Вызов API неизвестного сервиса LTI.
+\mod_page\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_page\event\course_module_viewed;Модуль курса просмотрен
+\mod_questionnaire\event\all_responses_deleted;Все ответы удалены
+\mod_questionnaire\event\all_responses_saved_as_text;Все ответы сохранены в виде текста
+\mod_questionnaire\event\all_responses_viewed;Просмотрен отчет «Все ответы»
+\mod_questionnaire\event\attempt_resumed;Попытка возобновлена
+\mod_questionnaire\event\attempt_saved;Ответы сохранены
+\mod_questionnaire\event\attempt_submitted;Ответы сданы
+\mod_questionnaire\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_questionnaire\event\course_module_viewed;Модуль курса просмотрен
+\mod_questionnaire\event\non_respondents_viewed;Просмотрен список не сдавших ответы
+\mod_questionnaire\event\question_created;Вопрос создан
+\mod_questionnaire\event\question_deleted;Вопрос удален
+\mod_questionnaire\event\questionnaire_previewed;Осуществлен предварительный просмотр анкетного опроса
+\mod_questionnaire\event\response_deleted;Индивидуальный ответ удален
+\mod_questionnaire\event\response_viewed;Просмотрен отчет «Индивидуальный ответ»
+\mod_quiz\event\attempt_abandoned;Попытка теста брошена
+\mod_quiz\event\attempt_becameoverdue;Превышено ограничение времени на попытку теста
+\mod_quiz\event\attempt_deleted;Попытка теста удалена
+\mod_quiz\event\attempt_preview_started;Начата попытка предварительного просмотра теста
+\mod_quiz\event\attempt_regraded;Попытка теста заново оценена
+\mod_quiz\event\attempt_reviewed;Завершенная попытка теста просмотрена
+\mod_quiz\event\attempt_started;Начата попытка теста
+\mod_quiz\event\attempt_submitted;Попытка теста завершена и отправлена на оценку
+\mod_quiz\event\attempt_summary_viewed;Сводка попытки теста просмотрена
+\mod_quiz\event\attempt_viewed;Попытка теста просмотрена
+\mod_quiz\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_quiz\event\course_module_viewed;Модуль курса просмотрен
+\mod_quiz\event\edit_page_viewed;Страница редактирования теста просмотрена
+\mod_quiz\event\group_override_created;Переопределение теста создано
+\mod_quiz\event\group_override_deleted;Переопределение теста удалено
+\mod_quiz\event\group_override_updated;Переопределение теста обновлено
+\mod_quiz\event\question_manually_graded;Вопрос оценен вручную
+\mod_quiz\event\report_viewed;Отчет по тесту просмотрен
+\mod_quiz\event\user_override_created;Переопределение теста создано
+\mod_quiz\event\user_override_deleted;Переопределение теста удалено
+\mod_quiz\event\user_override_updated;Переопределение теста обновлено
+\mod_resource\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_resource\event\course_module_viewed;Модуль курса просмотрен
+\mod_scorm\event\attempt_deleted;Попытка удалена
+\mod_scorm\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_scorm\event\course_module_viewed;Модуль курса просмотрен
+\mod_scorm\event\interactions_viewed;Взаимодействия просмотрены
+\mod_scorm\event\report_viewed;Отчет просмотрен
+\mod_scorm\event\sco_launched;Sco запущен
+\mod_scorm\event\scoreraw_submitted;Отправленный сырой балл SCORM
+\mod_scorm\event\status_submitted;Отправленный статус SCORM
+\mod_scorm\event\tracks_viewed;Треки просмотренны
+\mod_scorm\event\user_report_viewed;Рассмотрен отчет по пользователю
+\mod_simplecertificate\event\certificate_verified;Сертификат подтвержден
+\mod_simplecertificate\event\course_module_viewed;Модуль курса просмотрен
+\mod_studentquiz\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_studentquiz\event\course_module_viewed;Модуль курса просмотрен
+\mod_studentquiz\event\studentquiz_digest_changed;mod_studentquiz: studentquiz digest changed
+\mod_studentquiz\event\studentquiz_questionbank_viewed;mod_studentquiz: studentquiz questionbank viewed
+\mod_studentquiz\event\studentquiz_report_quiz_viewed;mod_studentquiz: studentquiz report quiz viewed
+\mod_studentquiz\event\studentquiz_report_rank_viewed;mod_studentquiz: studentquiz report rank viewed
+\mod_survey\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_survey\event\course_module_viewed;Модуль курса просмотрен
+\mod_survey\event\report_downloaded;Скачан отчет по анкете
+\mod_survey\event\report_viewed;Показан отчет по анкете
+\mod_survey\event\response_submitted;Ответ на анкету отправлен
+\mod_url\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_url\event\course_module_viewed;Модуль курса просмотрен
+\mod_videofile\event\course_module_viewed;Модуль курса просмотрен
+\mod_vpl\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_vpl\event\submission_base;mod_vpl: submission base
+\mod_vpl\event\submission_debugged;mod_vpl: submission debugged
+\mod_vpl\event\submission_deleted;mod_vpl: submission deleted
+\mod_vpl\event\submission_edited;mod_vpl: submission edited
+\mod_vpl\event\submission_evaluated;mod_vpl: submission evaluated
+\mod_vpl\event\submission_grade_deleted;mod_vpl: submission grade deleted
+\mod_vpl\event\submission_graded;mod_vpl: submission graded
+\mod_vpl\event\submission_grade_updated;mod_vpl: submission grade updated
+\mod_vpl\event\submission_grade_viewed;mod_vpl: submission grade viewed
+\mod_vpl\event\submission_previous_upload_viewed;mod_vpl: submission previous upload viewed
+\mod_vpl\event\submission_run;mod_vpl: submission run
+\mod_vpl\event\submission_uploaded;mod_vpl: submission uploaded
+\mod_vpl\event\submission_viewed;mod_vpl: submission viewed
+\mod_vpl\event\variation_added;mod_vpl: variation added
+\mod_vpl\event\variation_assigned;mod_vpl: variation assigned
+\mod_vpl\event\variation_base;mod_vpl: variation base
+\mod_vpl\event\variation_deleted;mod_vpl: variation deleted
+\mod_vpl\event\variation_updated;mod_vpl: variation updated
+\mod_vpl\event\vpl_all_submissions_downloaded;mod_vpl: vpl all submissions downloaded
+\mod_vpl\event\vpl_all_submissions_viewed;mod_vpl: vpl all submissions viewed
+\mod_vpl\event\vpl_base;mod_vpl: vpl base
+\mod_vpl\event\vpl_checkvpls;mod_vpl: vpl checkvpls
+\mod_vpl\event\vpl_description_viewed;mod_vpl: vpl description viewed
+\mod_vpl\event\vpl_diff_viewed;mod_vpl: vpl diff viewed
+\mod_vpl\event\vpl_execution_keeplist_updated;mod_vpl: vpl execution keeplist updated
+\mod_vpl\event\vpl_execution_keeplist_viewed;mod_vpl: vpl execution keeplist viewed
+\mod_vpl\event\vpl_execution_limits_updated;mod_vpl: vpl execution limits updated
+\mod_vpl\event\vpl_execution_limits_viewed;mod_vpl: vpl execution limits viewed
+\mod_vpl\event\vpl_execution_localjails_updated;mod_vpl: vpl execution localjails updated
+\mod_vpl\event\vpl_execution_localjails_viewed;mod_vpl: vpl execution localjails viewed
+\mod_vpl\event\vpl_execution_options_updated;mod_vpl: vpl execution options updated
+\mod_vpl\event\vpl_execution_options_viewed;mod_vpl: vpl execution options viewed
+\mod_vpl\event\vpl_jail_servers_tested;mod_vpl: vpl jail servers tested
+\mod_vpl\event\vpl_security;mod_vpl: vpl security
+\mod_vpl\event\vpl_security_webservice;mod_vpl: vpl security webservice
+\mod_vpl\event\vpl_similarity_form_viewed;mod_vpl: vpl similarity form viewed
+\mod_vpl\event\vpl_similarity_report_viewed;mod_vpl: vpl similarity report viewed
+\mod_vpl\event\vpl_variation_updated;mod_vpl: vpl variation updated
+\mod_vpl\event\vpl_watermark_report_viewed;mod_vpl: vpl watermark report viewed
+\mod_vpl\event\vpl_webservice_token_viewed;mod_vpl: vpl webservice token viewed
+\mod_wiki\event\comment_created;Комментарий создан
+\mod_wiki\event\comment_deleted;Комментарий удален
+\mod_wiki\event\comments_viewed;Комментарии просмотрены
+\mod_wiki\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_wiki\event\course_module_viewed;Модуль курса просмотрен
+\mod_wiki\event\page_created;Страница вики создана
+\mod_wiki\event\page_deleted;Страница вики удалена
+\mod_wiki\event\page_diff_viewed;Показаны изменения Вики
+\mod_wiki\event\page_history_viewed;Показана история Вики
+\mod_wiki\event\page_locks_deleted;Страница вики разблокирована
+\mod_wiki\event\page_map_viewed;Показана карта страниц Вики
+\mod_wiki\event\page_updated;Страница вики обновлена
+\mod_wiki\event\page_version_deleted;Версия страницы вики удалена
+\mod_wiki\event\page_version_restored;Версия вики восстановлена
+\mod_wiki\event\page_version_viewed;Версия страницы вики просмотрена
+\mod_wiki\event\page_viewed;Страница вики просмотрена
+\mod_workshop\event\assessable_uploaded;Работа была загружена
+\mod_workshop\event\assessment_evaluated;Оценка вычислена
+\mod_workshop\event\assessment_evaluations_reset;Сброшено вычисление оценки
+\mod_workshop\event\assessment_reevaluated;Оценка переопределена
+\mod_workshop\event\assessments_reset;Оценки работы очищены
+\mod_workshop\event\course_module_instance_list_viewed;Список экземпляров модуля в курсе просмотрен
+\mod_workshop\event\course_module_viewed;Модуль курса просмотрен
+\mod_workshop\event\phase_switched;Фаза переключена
+\mod_workshop\event\submission_assessed;Работа оценена
+\mod_workshop\event\submission_created;Представление работы создано
+\mod_workshop\event\submission_deleted;Ответ удален
+\mod_workshop\event\submission_reassessed;Работа переоценена
+\mod_workshop\event\submission_updated;Работа обновлена
+\mod_workshop\event\submission_viewed;Работа просмотрена
+\block_comments\event\comment_created;Комментарий создан
+\block_comments\event\comment_deleted;Комментарий удален
+\block_xp\event\user_leveledup;Уровень пользователя повышен
+\format_tiles\event\label_converted;Преобразовать в страницу
+\report_completion\event\report_viewed;Отчет «Завершение курса» просмотрен
+\report_completion\event\user_report_viewed;Отчет «Завершение курса» по пользователю просмотрен
+\report_editdates\event\report_viewed;Просмотрен отчет «Границы времени элементов»
+\report_log\event\report_viewed;Отчет «Журнал событий» просмотрен
+\report_log\event\user_report_viewed;Отчет «Журнал событий» по пользователю просмотрен
+\report_loglive\event\report_viewed;Отчет «События в реальном времени» просмотрен
+\report_outline\event\activity_report_viewed;Отчет «Отчет о деятельности» по курсу просмотрен
+\report_outline\event\report_viewed;Отчет «Отчет о деятельности» по пользователю просмотрен
+\report_participation\event\report_viewed;Показан отчет об участии.
+\report_questioninstances\event\report_viewed;Отчет «Экземпляры вопросов» просмотрен
+\report_security\event\report_viewed;Просмотрен отчет о проверке безопасности
+\report_stats\event\report_viewed;Отчет «Статистика» просмотрен
+\report_stats\event\user_report_viewed;Отчет «Статистика» для участника курса просмотрен
+\gradeexport_ods\event\grade_exported;Оценки экспортированы в OpenDocument
+\gradeexport_txt\event\grade_exported;Оценки экспортированы в формат TXT
+\gradeexport_xls\event\grade_exported;Оценки экспортированы в формат XLS
+\gradeexport_xml\event\grade_exported;Оценки экспортированы в формат XML
+\gradereport_grader\event\grade_report_viewed;Отчет «Отчет по оценкам» просмотрен
+\gradereport_history\event\grade_report_viewed;Отчет «История оценок» просмотрен
+\gradereport_outcomes\event\grade_report_viewed;Отчет «Отчет по показателям» просмотрен
+\gradereport_overview\event\grade_report_viewed;Отчет «Обзорный отчет» просмотрен
+\gradereport_singleview\event\grade_report_viewed;Показан отчет по оценкам (одиночный вид).
+\gradereport_user\event\grade_report_viewed;Отчет «Отчет по пользователю» просмотрен
+\tool_brickfield\event\analysis_requested;Запрошен анализ контента
+\tool_brickfield\event\report_downloaded;Сводка общедоступности скачана
+\tool_brickfield\event\report_viewed;Отчет общедоступности просмотрен
+\tool_capability\event\report_viewed;Отчет «Отчет о правах» просмотрен
+\tool_langimport\event\langpack_imported;Языковой пакет установлен
+\tool_langimport\event\langpack_removed;Языковой пакет удален
+\tool_langimport\event\langpack_updated;Языковой пакет обновлен
+\tool_monitor\event\rule_created;Правило создано
+\tool_monitor\event\rule_deleted;Правило удалено
+\tool_monitor\event\rule_updated;Правило обновлено
+\tool_monitor\event\subscription_created;Подписка создана
+\tool_monitor\event\subscription_criteria_met;Возникла ситуация, на уведомление о которой осуществлена подписка
+\tool_monitor\event\subscription_deleted;Подписка на уведомление о срабатывании правила удалена
+\tool_policy\event\acceptance_created;Создано согласие пользователя с политикой
+\tool_policy\event\acceptance_updated;Обновлено согласие пользователя с политикой
+\tool_recyclebin\event\category_bin_item_created;Объект создан
+\tool_recyclebin\event\category_bin_item_deleted;Объект удален
+\tool_recyclebin\event\category_bin_item_restored;Объект восстановлен
+\tool_recyclebin\event\course_bin_item_created;Объект создан
+\tool_recyclebin\event\course_bin_item_deleted;Объект удален
+\tool_recyclebin\event\course_bin_item_restored;Объект восстановлен
+\tool_usertours\event\step_shown;Шаг тура отображен
+\tool_usertours\event\tour_ended;Тур закончен
+\tool_usertours\event\tour_reset;Тур сброшен
+\tool_usertours\event\tour_started;Тур начат
+\local_advanced_expertise\event\upload_archive_analyzed;[[event_upload_archive_analyzed]]
+\local_eg_training\event\eg_training_module_viewed;Модуль тренажёра по инженерной графике просмотрен
+\assignsubmission_comments\event\comment_created;Комментарий создан
+\assignsubmission_comments\event\comment_deleted;Комментарий удален
+\assignsubmission_file\event\assessable_uploaded;Файл был загружен.
+\assignsubmission_file\event\submission_created;Представлен ответ
+\assignsubmission_file\event\submission_updated;Представленный ответ обновлен.
+\assignsubmission_onlinetext\event\assessable_uploaded;Текст был загружен
+\assignsubmission_onlinetext\event\submission_created;Представлен ответ
+\assignsubmission_onlinetext\event\submission_updated;Представленный ответ обновлен.
+\booktool_exportimscp\event\book_exported;Книга экспортирована
+\booktool_print\event\book_printed;Книга напечатана
+\booktool_print\event\chapter_printed;Глава напечатана
+\forumreport_summary\event\report_downloaded;Сводный отчет форума загружен
+\forumreport_summary\event\report_viewed;Сводный отчет форума просмотрен
+\quizaccess_seb\event\access_prevented;Доступ к тесту был заблокирован
+\quizaccess_seb\event\template_created;Шаблон SEB был создан
+\quizaccess_seb\event\template_deleted;Шаблон SEB был удален
+\quizaccess_seb\event\template_disabled;Шаблон SEB был отключен
+\quizaccess_seb\event\template_enabled;Шаблон SEB был включен
+\quizaccess_seb\event\template_updated;Шаблон SEB был обовлен
